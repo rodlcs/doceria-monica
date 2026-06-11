@@ -4,26 +4,29 @@ export function Footer() {
       <div className="container footer-grid">
         <div>
           <a href="#inicio" className="logo footer-logo">
-            Doceria Mônica
+            Artesanal Mônica
           </a>
           <p>
             Sobremesas artesanais criadas para celebrar histórias, encontros e momentos
             inesquecíveis.
           </p>
           <div className="social-list">
-            <a href="#contato">Instagram</a>
-            <a href="#contato">Facebook</a>
-            <a href="#contato">WhatsApp</a>
+            <a href="https://www.instagram.com/artesanalmonica" target="_blank" rel="noopener noreferrer">
+              Instagram
+            </a>
+            <a href="https://wa.me/5581996404900" target="_blank" rel="noopener noreferrer">
+              WhatsApp
+            </a>
           </div>
         </div>
 
         <div>
           <h3>Contato</h3>
           <ul>
-            <li>Endereço: personalize com o endereço da loja</li>
-            <li>Telefone: personalize com o telefone comercial</li>
-            <li>WhatsApp: personalize com o número de atendimento</li>
-            <li>E-mail: personalize com o e-mail oficial</li>
+            <li>Endereço: aldeia camaragibe</li>
+            <li>WhatsApp: (81) 99640-4900</li>
+            <li>Instagram: @artesanalmonica</li>
+            <li>E-mail: monicaferreirao164@gmail.com</li>
           </ul>
         </div>
 
@@ -33,12 +36,13 @@ export function Footer() {
             <li>Segunda a Sexta: 9h às 19h</li>
             <li>Sábado: 9h às 18h</li>
             <li>Domingo: sob encomenda</li>
+            <li>Feriados: sob encomenda</li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© 2026 Doceria Mônica. Todos os direitos reservados.</p>
+        <p>© 2026 Artesanal Mônica. Todos os direitos reservados.</p>
       </div>
     </footer>
   )
