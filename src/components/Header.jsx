@@ -20,10 +20,10 @@ export function Header() {
   }, [])
 
   return (
-    <header className="header-shell">
+    <header className="header-shell" style={{position: 'sticky', top:0,zIndex: 100}}>
       <div className="container header">
-        <a href="#inicio" className="logo" aria-label="Doceria Mônica - Página inicial">
-          Doceria Mônica
+        <a href="#inicio" className="logo" aria-label=" Artesenal Mônica - Página inicial">
+          Artesanal Mônica
         </a>
 
         <nav className={`nav ${isOpen ? 'nav-open' : ''}`}>
