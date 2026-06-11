@@ -3,7 +3,7 @@ export function Hero() {
     <section className="hero" id="inicio">
       <div className="hero-overlay" />
       <div className="container hero-content">
-        <div className="hero-badge glass-card">Experiência premium em confeitaria artesanal</div>
+        <div className="hero-badge glass-card">Experiência de alto nível em confeitaria artesanal</div>
         <h1>Doces que transformam momentos em memórias inesquecíveis</h1>
         <p>
           Bolos, tortas, brigadeiros gourmet e sobremesas artesanais feitos com carinho.
